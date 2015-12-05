@@ -1,0 +1,18 @@
+{
+  "units":[
+    {
+      "title":"Electric Quantities - Part One",
+      "content":"We all know that matter is made up of atoms and atoms are made up of electrons and protons, and that electrons have a negative charge and protons have a positive charge. If there are more electrons than protons, the overall charge is said to be negative, and if the number of protons is greater than that of electrons, the overall electric charge is positive! This being said, an <b>electric charge (Q)</b>, measured in Coulombs (C), in an electric circuit is simply the number of electrons flowing in the circuit. A Coulomb is approximately 6.24 * 10<sup>18</sup> electrons and represents a charge of -6.24*10<sup>18</sup> elementary units (because each electron has the charge of -1)! The <b>electric current (I)</b>, measured in Amperes (A), is the rate of flow of electric charge in a circuit. When 1 Coulomb of electric charge passes a point in the electric circuit in 1 second, it is said that the current is equal to 1 Ampere. Now, ever wondered what allows you to do all the things that you do in your daily lives? Energy - the ability to do work! <b>Electric potential energy (E)</b>, measured in Joules (J), is what drives electric current from one point in the circuit to another. The <b>electric potential</b>, measured in Volts (V), is the amount of energy possessed by per Coulomb of electric charge! A region with high electric potential has high potential energy per Coulomb of electric charge. Hence, the <b>potential difference (p.d.)</b>, also measured in Volts (V), between two points in the circuit is the difference in the electric potential of the two points. It is worth considering how the energy possessed by the electric charge gets used up as it travels from one terminal to another. Thus, say if the electric potential at the start of the electric circuit was 5V and at the other terminal the electric potential is 0V, the potential difference across the power source is 5V. This is known as the <b>electromotive force</b> - the maximum potential difference achieved across a power source. Note that it is this force that drives electric current from one terminal of the source to the other. ",
+      "images":[
+        "data/images/unit1/picture1.png",
+        "data/images/unit1/picture2.jpg",
+        "data/images/unit1/picture3.jpg",
+        "data/images/unit1/picture4.jpg"
+      ],
+      "links":[
+        "http://google.com",
+        "http://sciencedaily.com"
+      ]
+    }
+  ]
+}

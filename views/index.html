@@ -1,0 +1,53 @@
+<br>
+<div id="searchContainer">
+  <input type="text" ng-model="search.title" placeholder="Search" id="searchbox" />
+</div>
+<br>
+<div class="units">
+  <div class="unit" ng-repeat="unit in units | filter:search" ng-click="$location.path('/unit/' + (units.indexOf(unit)+1))">
+    <div class="images">
+      <div class="image" ng-repeat="image in unit.images" style="background-image:url('{{image}}')"></div>
+    </div>
+    <h2 style="padding-left:25px">{{unit.title | uppercase}}</h2>
+  </div>
+</div>
+
+<style>
+  #searchContainer{
+    text-align:center;
+  }
+  #searchbox{
+    padding:20px;
+    box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+    border:none;
+    outline:none;
+    width:80vw;
+    box-sizing:border-box;
+  }
+  .units{
+    text-align:center;
+    width:100%;
+  }
+  .unit{
+    box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+    width:80vw;
+    display:inline-block;
+    text-align:left;
+    cursor:pointer;
+    margin-bottom:25px;
+  }
+  .unit:hover{
+    box-shadow:1px 1px 5px rgba(0,0,0,0.5);
+  }
+  .unit .images{
+    text-align:center;
+  }
+  .unit .images .image{
+    width:20vw;
+    height:20vw;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20vw 20vw;
+    display:inline-block;
+  }
+</style>

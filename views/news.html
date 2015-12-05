@@ -1,0 +1,28 @@
+<div class="justify padded full normalized_links">
+  <h1>News <span class="subtitle">POWERED BY <a target="_blank" href="http://phys.org">PHYS.ORG</a></span></h1> 
+  <div class="newsitem" ng-repeat="entry in entries">
+    <a target="_blank" ng-href="{{entry.link}}">{{entry.title}}</a>: <span class="date">{{entry.publishedDate | uppercase}}</span>
+    <p>{{entry.content}}</p>
+    CATEGORIES: <span ng-repeat="category in entry.categories[0].split('&amp;amp;')" class="category">{{category.trim() | uppercase}}</span>
+  </div>
+</div>
+
+<style>
+  .newsitem{
+    padding:25px;
+    margin-bottom:20px;
+  }
+  .newsitem:hover{
+    box-shadow:2px 2px 5px rgba(0,0,0,0.4);
+  }
+  .newsitem .category{
+    padding:5px;
+    font-size:10px;
+    background-color:rgba(0,0,0,0.8);
+    color:#e3e3e3;
+    margin-left:10px;
+  }
+  .newsitem .date{
+    font-size:10px;
+  }
+</style>

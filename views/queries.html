@@ -1,0 +1,57 @@
+<br>
+<center><input ng-model="questionbox" type="text" id="questionbox" placeholder="Question" ng-keydown="questionbox_keydown($event)" /></center>
+<br><br>
+<div id="questions">
+  <h3 ng-if="questions.length==0 && loading == false" style="text-align:center">YOU HAVEN'T ASKED ANY QUESTIONS YET</h3>
+  <div class="question" ng-repeat="question in questions">
+    <div class="deleteButton fa fa-close" ng-click="deleteQuestion($index);"></div>
+    <h3>{{question.question}}</h3>
+    <b>A: </b> {{question.answer}}
+  </div>
+  <center><img id="loading" src="data/images/loading.gif"/></center>
+  <h4>Still unclear? Let us know by <a href='mailto:support@thefizzway.com'>mail</a> and we'll see what we can do!</h4>
+</div>
+
+<br><br>
+<style>
+  #questionbox{
+    padding:20px;
+    box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+    border:none;
+    outline:none;
+    width:80vw;
+  }
+  input[type=button]{
+    background-color:rgba(0,0,0,0.05);
+    color:rgba(0,0,0,0.9);
+    box-shadow:0 2px 5px rgba(0,0,0,0.5);
+    font-weight:bold;
+    outline:none;
+    padding:10px;
+    border:none;
+  }
+  #questions{
+    width:100%;
+    text-align:center;
+  }
+  .question{
+    box-shadow:1px 1px 3px rgba(0,0,0,0.3);
+    display:block;
+    width:80vw;
+    text-align:left;
+    padding:20px;
+    margin-left:10vw;
+    margin-right:10vw;
+    margin-bottom:20px;
+    box-sizing:border-box;
+  }
+  .question .deleteButton{
+    float:right;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    font-size:25px;
+    background-size:100% 100%;
+    cursor:pointer;
+  }
+</style>

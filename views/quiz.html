@@ -1,0 +1,96 @@
+<br>
+<h1 style="text-align:center">{{unit}}. {{title | uppercase}}</h1>
+
+<form class="quizForm {{$index == active?'active':''}}" ng-repeat="question in questions">
+  <md-radio-group class="quizQuestion" ng-model="answers[$index]">
+      <div ng-if="question.image">
+        <img ng-src="{{question.image}}" style="width:100%" />
+        <br><br>
+      </div>
+      {{question.question}}
+      <md-radio-button value="A">{{question.A}}</md-radio-button>
+      <md-radio-button value="B">{{question.B}}</md-radio-button>
+      <md-radio-button value="C">{{question.C}}</md-radio-button>
+      <md-radio-button value="D">{{question.D}}</md-radio-button>
+      <input ng-click="submitAnswer($index)" type="button" value="SUBMIT"/>
+      <br><br>
+  </md-radio-group>
+</form>
+
+<div class="quizQuestion" ng-style="resultStyle">
+  <h2>SCORES</h2>
+  {{number_correct}} OF {{number_total}} CORRECT! ({{number_total - number_attempted}} unattempted questions) <br><br>
+  <h3 style="display:{{number_correct<number_total?'block':'none'}}">ANSWERS</h3>
+  <div ng-repeat="question in questions" style="display:{{correct[$index]?'none':'block'}}">
+    <b>Q:</b> {{question.question}}<br>
+    <b>A:</b> {{question[question.answer]}}<br><br>
+  </div>
+  <br>
+    <div class="actions">
+      <div class="actionButton" class="wow bounceInRight" onclick="location.reload()"><div class="image fa fa-refresh"></div><div class="text"><h3>RETAKE TEST</h3></div></div>
+      <div class="actionButton" class="wow bounceInRight" ng-click="$location.path('/unit/' + unit)"><div class="image fa fa-university"></div><div class="text"><h3>BACK TO CLASS</h3></div></div>
+      <div class="actionButton" class="wow bounceInRight" ng-click="$location.path('/queries')"><div class="image fa fa-users"></div><div class="text"><h3>GET HELP</h3></div></div>
+    </div>
+</div>
+
+<style>
+  input[type=button]{
+    background-color:rgba(0,0,0,0.05);
+    color:rgba(0,0,0,0.9);
+    box-shadow:0 2px 5px rgba(0,0,0,0.5);
+    font-weight:bold;
+    outline:none;
+    padding:10px;
+    border:none;
+    float:right;
+  }
+  .quizQuestion{
+    padding:50px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.5);
+    display:block;
+    width:500px;
+    margin-left:calc(50% - 300px);
+    margin-right:calc(50% - 300px);
+    margin-top:50px;
+    margin-bottom:50px;
+  }
+  .quizForm{
+    display:none;
+  }
+  .quizForm.active{
+    display:block;
+  }
+  .actions{
+    display:block;
+    text-align:center;
+  }
+  .actionButton{
+    display:inline-block;
+    cursor:pointer;
+    padding:10px;
+  }
+ 
+  @media (max-width:655px){
+    .actionButton .text{
+      font-size:0px;
+    }
+    .quizQuestion{
+      width:95vw;
+      box-sizing:border-box;
+      margin-left:2.5vw;
+      margin-right:2.5;
+    
+    }
+  }
+  
+  .actionButton .image{
+    display:table-cell;
+    font-size:27px;
+    vertical-align:middle;
+    padding:5px;
+  }
+  .actionButton .text{
+    display:table-cell;
+    vertical-align:middle;
+  }
+</style>

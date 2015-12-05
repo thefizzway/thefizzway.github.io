@@ -1,0 +1,112 @@
+<div id="unitContent">
+  <br>
+  <div id="imageStrip">
+    <block-image ng-repeat="image in images" source="{{image}}"></block-image>
+  </div>
+  <br>
+  <div id="textualContent" style="margin-top:25vw">
+    <h1>{{unit}}. {{title | uppercase}} <a title="{{like | uppercase }} ({{likecount}} likes)" ng-click="toggleLike()" id="like" class="{{like}} fa fa-heart" /></h1>
+    <p ng-bind-html="content"></p>
+    
+    <div class="actions">
+      <div class="actionButton" class="wow bounceInRight" ng-click="read()"><div class="image fa fa-volume-up"></div><div class="text"><h3 id="reading">READ IT OUT</h3></div></div>
+      <div class="actionButton" class="wow bounceInRight" ng-click="$location.path('/quiz/' + unit)"><div class="image fa fa-graduation-cap"></div><div class="text"><h3>TAKE A TEST</h3></div></div>
+      <div class="actionButton" class="wow bounceInRight" ng-click="$location.path('/queries')"><div class="image fa fa-users"></div><div class="text"><h3>GET HELP</h3></div></div>
+      
+    </div>
+    <h2 class="wow bounceInLeft">Extra resources:</h2>
+    <ul class="wow bounceInLeft">
+      <li ng-repeat="link in links"><a href="{{link}}">{{link}}</a></li>
+    </ul>
+    
+    <br>
+  </div>
+</div>
+
+<script>
+  
+</script>
+
+<style>
+  #like{
+    height:25px;
+    width:25px;
+    display:inline-block;
+    margin-left:15px;
+    cursor:pointer;
+  }
+  #like.like{
+    color:black;
+  }
+  #like.liked{
+    color:#e74c3c;
+  }
+  #unitContent{
+    background-color:white;
+  }
+  #imageStrip{
+    text-align:center;
+    height:calc(25vw + 20px);
+    display:block;
+    width:100vw;
+    position:fixed;
+    left:0px;
+    z-index:1;
+    top:70px;
+  }
+  #textualContent{
+    background-color:white;
+    z-index:2;
+    position:relative;
+    text-align:justify;
+    padding-left:50px;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-right:50px;
+    box-sizing:border-box;
+  }
+  #textualContent b{
+    font-family:"Slabo 27px";
+    font-size:17px;
+  }
+  #imageStrip block-image, #imageStrip .block_image{
+    width:25vw;
+    height:25vw;
+    display:inline-block;
+  }
+  .actions{
+    display:block;
+    text-align:center;
+  }
+  .actionButton{
+    display:inline-block;
+    cursor:pointer;
+    padding:10px;
+  }
+ 
+  @media (max-width:655px){
+    .actionButton .text{
+      font-size:0px;
+    }
+    #imageStrip block-image, #imageStrip .block_image{
+      width:49vw !important;
+      height:49vw !important;
+    }
+    #imageStrip{
+      height:calc(100vw + 20px) !important;
+    }
+    #textualContent{
+      margin-top:100vw !important;
+    }
+  }
+  
+  .actionButton .image{
+    display:table-cell;
+    font-size:45px;
+    padding:5px;
+  }
+  .actionButton .text{
+    display:table-cell;
+    vertical-align:middle;
+  }
+</style>
