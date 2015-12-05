@@ -51,15 +51,17 @@ app.controller("UnitController", function($scope, $routeParams, $sce, UnitServic
   };
   
   $scope.toggleLike = function(){
-    var request = JSON.stringify({"method":"like","action":"like","unit":$scope.unit});
-    $http.get(api + request).success(function(response){
-      $scope.likecount = response.likes;
-      var likes = localStorage["likes"]?JSON.parse(localStorage["likes"]):[];
-      likes.push($scope.unit);
-      localStorage["likes"] = JSON.stringify(likes);
-      $scope.like = "liked";
-    });
-    
+      if($scope.like != "liked")
+      {
+        var request = JSON.stringify({"method":"like","action":"like","unit":$scope.unit});
+        $http.get(api + request).success(function(response){
+          $scope.likecount = response.likes;
+          var likes = localStorage["likes"]?JSON.parse(localStorage["likes"]):[];
+          likes.push($scope.unit);
+          localStorage["likes"] = JSON.stringify(likes);
+          $scope.like = "liked";
+        });
+      }    
   };
   
   //SET animations
