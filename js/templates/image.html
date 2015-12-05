@@ -1,4 +1,4 @@
-<div class="block_image" style="background-image:url('{{src}}')"></div>
+<div class="block_image" style="background-image:url('{{src}}')" ng-click="window(src)"></div>
 
 <style>
   .block_image{
@@ -8,6 +8,10 @@
     background-size:100% 100%;
     height:25vw;
     width:25vw;
+    border-right:solid;
+    box-sizing: border-box;
+    border-width:2.5px;
+    cursor:pointer;
   }
 </style>
 
