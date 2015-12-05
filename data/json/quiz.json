@@ -2,34 +2,13 @@
   "questions":[
     {
       "unit":1,
-      "title":"Electric Quantities",
-      "question":"What does Sherlock do the most?",
-      "A":"Solve murders",
-      "B":"Play violin",
-      "C":"Make deductions",
-      "D":"Show off",
-      "answer":"D",
-      "image":"http://images6.fanpop.com/image/photos/37500000/SherlockHolmes-sherlock-37533859-456-544.jpg"
-    },
-    {
-      "unit":1,
-      "title":"Electric Quantities",
-      "question":"How did Sherlock jump from a building and not die?",
-      "A":"He wore a helmet",
-      "B":"He didn't jump",
-      "C":"He landed softly",
-      "D":"It was Sherlock. Nobody understands him.",
+      "title":"Motion",
+      "question":"Umm, it's not ready yet. Can you wait?",
+      "A":"Yeah, sure!",
+      "B":"Noooo!",
+      "C":"I have to...",
+      "D":"That's not fair!",
       "answer":"B"
-    },
-    {
-      "unit":1,
-      "title":"Electric Quantities",
-      "question":"What phrase best describes Moriarty?",
-      "A":"Sherlock's nemesis",
-      "B":"Criminal mastermind",
-      "C":"Homosexual",
-      "D":"None of the above",
-      "answer":"C"
     }
   ]
 }
