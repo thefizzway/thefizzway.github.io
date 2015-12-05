@@ -7,7 +7,7 @@ $(document).ready(function(){
     msg.lang = 'en-US';
     speechSynthesis.speak(msg);
     setTimeout(function(){
-      $("#splash").fadeOut(5000);  
+      $("#splash").fadeOut(2000);  
     },2000)
     
   });
