@@ -15,11 +15,11 @@
         "unit":1,
         "title":"Motion",
         "question":"What is the best description for this distance time graph",
-        "A":"Stopped",
+        "A":"Acceleration",
         "B":"Steady speed",
-        "C":"Acceleration",
+        "C":"Stopped",
         "D":"Deacceleration",
-        "answer":"A",
+        "answer":"C",
         "image":"http://www.sciwebhop.net/sci_web/physics/gcse/force_motion/fimages/revisi8.gif"
     },
     {
@@ -34,11 +34,11 @@
         "unit":1,
         "title":"Motion",
         "question":"What does the following Speed-Time graph indicate?",
-        "A":"Uniform speed",
+        "A":"None",
         "B":"Body is at rest",
         "C":"Non-uniform speed",
-        "D":"None",
-        "answer":"A",
+        "D":"Uniform speed",
+        "answer":"D",
         "image":"http://images.tutorvista.com/contentimages/science/CBSEIXSCIENCE/Ch143/images_tat/img472.jpeg"
     },
     {
