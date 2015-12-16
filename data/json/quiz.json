@@ -29,6 +29,27 @@
         "A":"Yes",
         "B":"No",
         "answer":"B"
+    },
+    {
+        "unit":1,
+        "title":"Motion",
+        "question":"What does the following Speed-Time graph indicate?",
+        "A":"Uniform speed",
+        "B":"Body is at rest",
+        "C":"Non-uniform speed",
+        "D":"None",
+        "answer":"A"
+        "image":"http://images.tutorvista.com/contentimages/science/CBSEIXSCIENCE/Ch143/images_tat/img472.jpeg"
+    },
+    {
+      "unit":1,
+      "title":"Motion",
+      "question":"A body moving along a straight line at 20 m/s undergoes an acceleration of 4 m/s2. After two seconds its speed will be",
+      "A":"8 m/s",
+      "B":"12 m/s",
+      "C":"16 m/s",
+      "D":"28 m/s",
+      "answer":"D"
     }
   ]
 }
