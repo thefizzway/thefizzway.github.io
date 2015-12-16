@@ -7,11 +7,11 @@
         <img ng-src="{{question.image}}" style="width:100%" />
         <br><br>
       </div>
-      {{question.question}}
-      <md-radio-button value="A" ng-if="question.A" ng-bind-html="question.A"></md-radio-button>
-      <md-radio-button value="B" ng-if="question.B" ng-bind-html="question.B"></md-radio-button>
-      <md-radio-button value="C" ng-if="question.C" ng-bind-html="question.C"></md-radio-button>
-      <md-radio-button value="D" ng-if="question.D" ng-bind-html="question.D"></md-radio-button>
+      <span ng-bind-html="html(question.question)"></span>
+       <md-radio-button ng-if="question.A != undefined" value="A"><span ng-bind-html="html(question.A)"></span></md-radio-button>
+      <md-radio-button ng-if="question.B != undefined" value="B"><span ng-bind-html="html(question.B)"></span></md-radio-button>
+      <md-radio-button ng-if="question.C != undefined" value="C"><span ng-bind-html="html(question.C)"></span></md-radio-button>
+      <md-radio-button  ng-if="question.D != undefined" value="D"><span ng-bind-html="html(question.D)"></span></md-radio-button>
       <input ng-click="submitAnswer($index)" type="button" value="SUBMIT"/>
       <br><br>
   </md-radio-group>
@@ -22,8 +22,8 @@
   {{number_correct}} OF {{number_total}} CORRECT! ({{number_total - number_attempted}} unattempted questions) <br><br>
   <h3 style="display:{{number_correct<number_total?'block':'none'}}">ANSWERS</h3>
   <div ng-repeat="question in questions" style="display:{{correct[$index]?'none':'block'}}">
-    <b>Q:</b> {{question.question}}<br>
-    <b>A:</b> {{question[question.answer]}}<br><br>
+    <b>Q:</b> <span ng-bind-html="html(question.question)"></span><br>
+    <b>A:</b> <span ng-bind-html="html(question[question.answer])"></span><br><br>
   </div>
   <br>
     <div class="actions">

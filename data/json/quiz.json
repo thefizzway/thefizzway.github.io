@@ -8,17 +8,17 @@
         "B":"3.3 m/s<sup>2<sup>",
         "C":"10 m/s<sup>2<sup>",
         "D":"30 m/s<sup>2<sup>",
-        "answer":"A",
-        "image":"http://clipartist.net/openclipart.org/2013/May/May2013/a_car_little_red-1969px.png
+        "answer":"B",
+        "image":"http://clipartist.net/openclipart.org/2013/May/May2013/a_car_little_red-1969px.png"
     },
     {
         "unit":1,
         "title":"Motion",
         "question":"What is the best description for this distance time graph",
-        "A":"Sopped",
+        "A":"Stopped",
         "B":"Steady speed",
         "C":"Acceleration",
-        "D":"Deceleration",
+        "D":"Deacceleration",
         "answer":"A",
         "image":"http://www.sciwebhop.net/sci_web/physics/gcse/force_motion/fimages/revisi8.gif"
     },

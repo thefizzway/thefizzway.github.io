@@ -1,4 +1,4 @@
-app.controller("QuizController", function($scope, $routeParams, $location, QuizService){
+app.controller("QuizController", function($scope, $routeParams, $location, QuizService, $sce){
   $scope.$location = $location;
   $scope.unit = $routeParams.unit;
   QuizService.success(function(data){
@@ -26,4 +26,8 @@ app.controller("QuizController", function($scope, $routeParams, $location, QuizS
       $scope.resultStyle = {'display':'block'};
     }
   };
+    
+    $scope.html = function(code){
+        return $sce.trustAsHtml(code);  
+    };
 });
