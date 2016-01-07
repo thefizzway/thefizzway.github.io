@@ -17,12 +17,12 @@ app.controller("QuizController", function($scope, $routeParams, $location, QuizS
   $scope.resultStyle = {'display':'none'};
   
   $scope.submitAnswer = function(questionNumber){
-    $scope.correct.push($scope.questions[questionNumber].answer == $scope.answers[questionNumber]);
+    $scope.correct.push($scope.answers[questionNumber] === undefined? undefined : $scope.questions[questionNumber].answer == $scope.answers[questionNumber]);
     $scope.active += 1;
     if($scope.active >= $scope.questions.length){
       $scope.number_correct = $scope.correct.filter(function(x){return x;}).length;
       $scope.number_total = $scope.questions.length;
-      $scope.number_attempted = $scope.correct.length;
+      $scope.number_attempted = $scope.correct.filter(function(x){return x !== undefined;}).length;
       $scope.resultStyle = {'display':'block'};
     }
   };

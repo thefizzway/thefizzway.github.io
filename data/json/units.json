@@ -14,6 +14,19 @@
         "https://www.youtube.com/watch?v=A3m15X4-fhI",
         "https://www.youtube.com/watch?v=q2QGlQxPgpA"
       ]
+    },
+    {
+        "title":"MATTER AND FORCES",
+        "content":"<p><b>Weight</b> is the gravitational pull on an object measured in Newtons. Weight is different on different planets because the varying gravity of different planets. Weight is mass multiplied by the gravitational force. <b>Mass</b> is the amount of particles in a substance. Mass is a constant: it never changes even if the gravitational pull changes. Here we will talk about Newton&rsquo;s first law Inertia. Inertia states that &ldquo;A body at rest, or if moving it continues to move with uniform velocity, unless an external force makes it behave differently&rdquo; the resisten in inertia is the mass as it has an opposite force while moving in an uniform velocity.</span> Large masses like the planets have their own gravitational force. The bigger the planet is, the larger its gravitational force. Earth&rsquo;s gravitational force is about 9.8 N/kg. The first image is the formula for the above statement where W is the weight, m is the mass and g is gravity.<br><br><b>Force</b> is normally measured in the SI unit of Newtons. The second law of Newton states that F=ma - where acceleration a is directly proportional to the applied for F for a fixed mass. Thus increasing the force will increase the acceleration which will affect the motion of the object. F = mg basically states that the force of an object equals the mass of the object multiplied by the gravitational force. As gravitational force is usually constant so increasing the force will increase the mass so this means that the force alters the shape of the object. Referring to the graph on the X-axis there is the load and on the Y-axis it is the extension. This suggests that when the load increases proportionally the extension also increases making an straight line however the straight line then becomes a curve due to <b>elasticity limit</b>. The force applied is directly proportional to the extension of the spring only till it the force does not cross the limit of the spring, as stated by the <b>Hooke&#39;s law</b>, i.e. force equals a constant times the extension of the spring (F = k*x). This is a limit from which the spring cannot return to it original state and is deformed due to heavy load. Refer two the second picture which shows the exapmle of Hook&#39;s law. <br><br>When two or more forces are acting together or against each other that we obtain a resultant force. If the forces act together that time to calculate the resultant force we add all the force to get the resultant force however if the forces act against each other that time we subtract the smaller force from the grater on to obtain the resultant force. Refer to the third image which is an example of resultant force. A system is in equilibrium mainly when both opposing forces are equal in magnitude and the resultant force is 0. This results into no movement. Refer to the fourth picture which is the equilibrium example.",
+        "images":[
+            "data/images/unit2/picture1.png",
+            "data/images/unit2/picture2.png",
+            "data/images/unit2/picture3.png",
+            "data/images/unit2/picture4.png"
+        ],
+        "links": [
+            "http://www.4physics.com/phy_demo/HookesLaw/HookesLawLab.html"
+        ]
     }
   ]
 }

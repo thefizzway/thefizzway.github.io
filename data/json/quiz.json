@@ -50,6 +50,59 @@
       "C":"16 m/s",
       "D":"28 m/s",
       "answer":"D"
-    }
+    },
+    {
+      "unit":2,
+      "title":"Matter And Forces",
+      "question":"If a person's mass is 45Kg and considering the gravity as 10 m/s<sup>2</sup>, what is his weight?",
+      "A":"450N",
+      "B":"45N",
+      "C":"4500N",
+      "D":"None",
+      "answer":"A"
+    },
+    {
+      "unit":2,
+      "title":"Matter And Forces",
+      "question":"The strength of gravity on the Moon is 1.6 newtons per kilogram. If an astronaut's mass is 80 kg on Earth, what would it be on the Moon?",
+      "A":"80",
+      "B":"8.0",
+      "C":"50",
+      "D":"60",
+      "answer":"A"
+   },
+    {
+      "unit":2,
+      "title":"Matter And Forces",
+      "question":"The surface gravity of Jupiter is about 26 newtons per kilogram. What would be the weight of a probe of mass 50 kg at Jupiter's surface?",
+      "A":"130N",
+      "B":"1300N",
+      "C":"13000N",
+      "D":"1.3N",
+      
+      "answer":"B"
+    },    
+    {
+      "unit":2,
+      "title":"Matter And Forces",
+      "question":"The diagram below shows two identical springs whose unstretched lengths are each 20 cm. A mass of 200 g is hung on one spring and the spring becomes 25 cm long. A mass of 80 g is hung on the other spring. How long does it become?",
+      "A":"22cm",
+      "B":"10cm",
+      "C":"15cm",
+      "D":"23cm",
+      "answer":"A",
+      "image":"http://www.school.nrtoone.com/hotpot/springpix/11.gif"
+     },
+    {
+      "unit":2,
+      "title":"Matter And Forces",
+      "question":"Hooke's Law states that the extension of a wire is directly proportional to the force which stretches it. Which of these graphs shows agreement with Hooke's Law?",
+      "A":"E",
+      "B":"B",
+      "C":"D",
+      "D":"C",
+      "answer":"D",
+      "image":"http://www.school.nrtoone.com/hotpot/springpix/4.gif"
+   }
   ]
 }
