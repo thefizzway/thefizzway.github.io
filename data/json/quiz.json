@@ -103,6 +103,76 @@
       "D":"C",
       "answer":"D",
       "image":"http://www.school.nrtoone.com/hotpot/springpix/4.gif"
-   }
+   },
+    {
+      "unit":3,
+      "title":"Energy, Work & Power",
+      "question":"The net thrust force on a bus is 5000N and the work done by the bus is 2500J, the distance travelled by the bus is ?",
+      "A":"2m",
+      "B":"0.5m",
+      "C":"7500m",
+      "D":"2500m",
+      "answer":"B"
+    },
+    {
+      "unit":3,
+      "title":"Energy, Work & Power",
+      "question":"The P.E. of a body at a certain height is 200 J. The kinetic energy possessed by it when it just touches the surface of the earth is",
+      "A":"&gt;P.E",
+      "B":"&lt;P.E",
+      "C":"=P.E",
+      "D":"Cannot be determined",
+      "answer":"C"
+   },    
+    {
+      "unit":3,
+      "title":"Energy, Work & Power",
+      "question":"An object of mass 1 kg has potential energy of 1 joule relative to the ground when it is at a height of _______.",
+      "A":"0.10m",
+      "B":"1m",
+      "C":"9.8m",
+      "D":"32m",
+      "answer":"A"
+   },
+    {
+      "unit":3,
+      "title":"Energy, Work & Power",
+      "question":"An object of mass 'm' raised to a height '2h' above the ground level possesses a gravitational potential energy of",
+      "A":"1/2 * mgh",
+      "B":"mgh",
+      "C":"2mgh",
+      "D":"m * g/2h",
+      "answer":"C"
+    },
+    {
+      "unit":3,
+      "title":"Energy, Work & Power",
+      "question":"A pendulum bob moves at a speed of 2 m/s and mass of 0.5 kg, its KE would be",
+      "A":"1J",
+      "B":"0.25J",
+      "C":"0.5J",
+      "D":"2J",
+      "answer":"A"
+    },  
+    {      
+      "unit":3,
+      "title":"Energy, Work & Power",
+      "question":"A girl accidentally dropped her mobile phone from the balcony. If the mass of the mobile phone is 0.6 kg and the height from where the mobile phone was dropped is 120 m, the PE of the mobile phone is",
+      "A":"7.2J",
+      "B":"200J",
+      "C":"72J",
+      "D":"720J",
+      "answer":"D"
+    },
+    {
+      "unit":3,
+      "title":"Energy, Work & Power",
+      "question":"If a bulb uses energy of 100 J and remains on for 25s, the power consumed by the bulb will be",
+      "A":"125W",
+      "B":"4W",
+      "C":"2500W",
+      "D":"75W",
+      "answer":"B"
+    }
   ]
 }
