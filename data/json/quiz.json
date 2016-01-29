@@ -243,6 +243,56 @@
       "C":"Solar",
       "D":"Geothermal",
       "answer":"D"
+    },
+    {
+      "unit":5,
+      "title":"Kinetic Molecular Model Of Matter",
+      "question":"Which theory describes the arrangement and movement of particles in solids, liquids and gases?",
+      "A":"Theory of Relativity",
+      "B":"Kinetic Theory",
+      "C":"Atomic Theory",
+      "D":"Darwin's Theory",
+      "answer":"B"
+    },
+    {
+      "unit":5,
+      "title":"Kinetic Molecular Model Of Matter",
+      "question":"In which state of matter are the particles mostly touching but arranged in a random way?",
+      "A":"Solid",
+      "B":"Liquid",
+      "C":"Gas",
+      "D":"Plasma",
+      "answer":"A"
+   },
+    {
+      "unit":5,
+      "title":"Kinetic Molecular Model Of Matter",
+      "question":"In which state of matter do the particles have the most energy?",
+      "A":"Solid",
+      "B":"Liquid",
+      "C":"Gas",
+      "D":"Cannot be determined",
+      "answer":"C"    
+    },
+    {
+      "unit":5,
+      "title":"Kinetic Molecular Model Of Matter",
+      "question":"Why can liquids not be compressed easily?",
+      "A":"The particles are in random arrangement",
+      "B":"The particles are closely packed",
+      "C":"The particles are free to move",
+      "D":"The particles have high energy",
+      "answer":"B"
+   },
+    {
+      "unit":5,
+      "title":"Kinetic Molecular Model Of Matter",
+      "question":"Why do solids have a fixed shape?",
+      "A":"The particles are fixed in place",
+      "B":"The paricles are closely packed",
+      "C":"All of the above",
+      "D":"None of the above",
+      "answer":"C"
     }
   ]
 }
