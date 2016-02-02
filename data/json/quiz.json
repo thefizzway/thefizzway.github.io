@@ -293,6 +293,56 @@
       "C":"All of the above",
       "D":"None of the above",
       "answer":"C"
+    },
+    {
+      "unit":6,
+      "title":"Evaporation & Pressure change",
+      "question":" A sealed syringe contains 10 &times; 10<sup>-6</sup> m<sup>3</sup> of air at 1 &times; 10<sup>5</sup> Pa. The plunger is pushed until the volume of trapped air is 4 x 10<sup>-6</sup> m<sup>3</sup>. If there is no change in temperature what is the new pressure of the gas?",
+      "A":"2.5 &times; 10<sup>6</sup>",
+      "B":"2.5 &times; 10<sup>5</sup>",
+      "C":"2.6 &times; 10<sup>6</sup>",
+      "D":"2.6 &times; 10<sup>7</sup>",
+      "answer":"B"
+    },
+    {
+      "unit":6,
+      "title":"Evaporation & Pressure change",
+      "question":"What is the relationship between the pressure and volume of a fixed mass of gas at constant temperature?",
+      "A":"Gas volume is directly proportional to gas pressure",
+      "B":"Gas volume is conversely proportional to gas pressure",
+      "C":"Gas volume is inversely proportional to gas pressure",
+      "D":"Gas volume is not proportional to gas pressure",
+      "answer":"C"
+   },
+    {
+      "unit":6,
+      "title":"Evaporation & Pressure change",
+      "question":"The pressure of a gas will _________  when the volume is decreased and will _______ when the absolute temperature is decreased.",
+      "A":"increase...increase",
+      "B":"increase...decrease",
+      "C":"decrease...increase",
+      "D":"decrease...decrease",
+      "answer":"B"    
+    },
+    {
+      "unit":6,
+      "title":"Evaporation & Pressure change",
+      "question":"If the absolute temperature of a gas is doubled and the pressure of the gas is halved, how will the volume change?",
+      "A":"It will decrease to one fourth of its original value.",
+      "B":"It will stay the same as its original value.",
+      "C":"It will increase to four times its original value.",
+      "D":"It will become half its original value",
+      "answer":"C"
+   },
+    {
+      "unit":6,
+      "title":"Evaporation & Pressure change",
+      "question":"If both the volume and the pressure of a gas are doubled, how will the absolute temperature change?",
+      "A":"It will decrease to one fourth of its original value.",
+      "B":"It will stay the same as its original value.",
+      "C":"It will increase to four times its original value.",
+      "D":"It will become half its original value",
+      "answer":"C"
     }
   ]
 }
