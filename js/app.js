@@ -1,16 +1,16 @@
 var app = angular.module("fizz-app", ["ngRoute", "ngAria", "ngMaterial"]);
 
 $(document).ready(function(){
-  $(window).load(function(){
+    
+    
     var msg = new SpeechSynthesisUtterance();
     msg.text = "Welcome, user!";
     msg.lang = 'en-US';
     speechSynthesis.speak(msg);
     setTimeout(function(){
-      $("#splash").fadeOut(2000);  
-    },2000)
+        $("#splash").fadeOut(2000);  
+    },2000);
     
-  });
   $("#splash").click(function(){
     $("#splash").fadeOut(1500);
   });
