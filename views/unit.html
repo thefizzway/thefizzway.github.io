@@ -16,7 +16,7 @@
     </div>
     <h2 class="wow bounceInLeft">Extra resources:</h2>
     <ul class="wow bounceInLeft">
-      <li ng-repeat="link in links"><a href="{{link}}">{{link}}</a></li>
+      <li ng-repeat="link in links" class="extraResource"><a href="{{link}}">{{link}}</a></li>
     </ul>
     
     <br>
@@ -25,6 +25,12 @@
 
 
 <style>
+    table, ul{
+        text-align:left;
+    }
+    .extraResource {
+        word-wrap: break-word;
+    }
   #like{
     height:25px;
     width:25px;
