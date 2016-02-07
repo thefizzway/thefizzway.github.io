@@ -1,348 +1,354 @@
 {
-  "questions":[
-    {
-        "unit":1,
-        "title":"Motion",
-        "question":"If a car increases in velocity from 5 m/s to 15 m/s in three seconds, what is its acceleration?",
-        "A":"33.3 m/s<sup>2<sup>",
-        "B":"3.3 m/s<sup>2<sup>",
-        "C":"10 m/s<sup>2<sup>",
-        "D":"30 m/s<sup>2<sup>",
-        "answer":"B",
-        "image":"http://clipartist.net/openclipart.org/2013/May/May2013/a_car_little_red-1969px.png"
-    },
-    {
-        "unit":1,
-        "title":"Motion",
-        "question":"What is the best description for this distance time graph",
-        "A":"Acceleration",
-        "B":"Steady speed",
-        "C":"Stopped",
-        "D":"Deacceleration",
-        "answer":"C",
-        "image":"http://www.sciwebhop.net/sci_web/physics/gcse/force_motion/fimages/revisi8.gif"
-    },
-    {
-        "unit":1,
-        "title":"Motion",
-        "question":"A man runs after a bus. The bus is travelling at an average speed of 5 m/s. The man runs 25 m in 6 s. Does he catch the bus?",
-        "A":"Yes",
-        "B":"No",
-        "answer":"B"
-    },
-    {
-        "unit":1,
-        "title":"Motion",
-        "question":"What does the following Speed-Time graph indicate?",
-        "A":"None",
-        "B":"Body is at rest",
-        "C":"Non-uniform speed",
-        "D":"Uniform speed",
-        "answer":"D",
-        "image":"http://images.tutorvista.com/contentimages/science/CBSEIXSCIENCE/Ch143/images_tat/img472.jpeg"
-    },
-    {
-      "unit":1,
-      "title":"Motion",
-      "question":"A body moving along a straight line at 20 m/s undergoes an acceleration of 4 m/s<sup>2</sup>. After two seconds its speed will be",
-      "A":"8 m/s",
-      "B":"12 m/s",
-      "C":"16 m/s",
-      "D":"28 m/s",
-      "answer":"D"
-    },
-    {
-      "unit":2,
-      "title":"Matter And Forces",
-      "question":"If a person's mass is 45Kg and considering the gravity as 10 m/s<sup>2</sup>, what is his weight?",
-      "A":"450N",
-      "B":"45N",
-      "C":"4500N",
-      "D":"None",
-      "answer":"A"
-    },
-    {
-      "unit":2,
-      "title":"Matter And Forces",
-      "question":"The strength of gravity on the Moon is 1.6 newtons per kilogram. If an astronaut's mass is 80 kg on Earth, what would it be on the Moon?",
-      "A":"80",
-      "B":"8.0",
-      "C":"50",
-      "D":"60",
-      "answer":"A"
-   },
-    {
-      "unit":2,
-      "title":"Matter And Forces",
-      "question":"The surface gravity of Jupiter is about 26 newtons per kilogram. What would be the weight of a probe of mass 50 kg at Jupiter's surface?",
-      "A":"130N",
-      "B":"1300N",
-      "C":"13000N",
-      "D":"1.3N",
-      
-      "answer":"B"
-    },    
-    {
-      "unit":2,
-      "title":"Matter And Forces",
-      "question":"The diagram below shows two identical springs whose unstretched lengths are each 20 cm. A mass of 200 g is hung on one spring and the spring becomes 25 cm long. A mass of 80 g is hung on the other spring. How long does it become?",
-      "A":"22cm",
-      "B":"10cm",
-      "C":"15cm",
-      "D":"23cm",
-      "answer":"A",
-      "image":"http://www.school.nrtoone.com/hotpot/springpix/11.gif"
-     },
-    {
-      "unit":2,
-      "title":"Matter And Forces",
-      "question":"Hooke's Law states that the extension of a wire is directly proportional to the force which stretches it. Which of these graphs shows agreement with Hooke's Law?",
-      "A":"E",
-      "B":"B",
-      "C":"D",
-      "D":"C",
-      "answer":"D",
-      "image":"http://www.school.nrtoone.com/hotpot/springpix/4.gif"
-   },
-    {
-      "unit":3,
-      "title":"Energy, Work & Power",
-      "question":"The net thrust force on a bus is 5000N and the work done by the bus is 2500J, the distance travelled by the bus is ?",
-      "A":"2m",
-      "B":"0.5m",
-      "C":"7500m",
-      "D":"2500m",
-      "answer":"B"
-    },
-    {
-      "unit":3,
-      "title":"Energy, Work & Power",
-      "question":"The P.E. of a body at a certain height is 200 J. The kinetic energy possessed by it when it just touches the surface of the earth is",
-      "A":"&gt;P.E",
-      "B":"&lt;P.E",
-      "C":"=P.E",
-      "D":"Cannot be determined",
-      "answer":"C"
-   },    
-    {
-      "unit":3,
-      "title":"Energy, Work & Power",
-      "question":"An object of mass 1 kg has potential energy of 1 joule relative to the ground when it is at a height of _______.",
-      "A":"0.10m",
-      "B":"1m",
-      "C":"9.8m",
-      "D":"32m",
-      "answer":"A"
-   },
-    {
-      "unit":3,
-      "title":"Energy, Work & Power",
-      "question":"An object of mass 'm' raised to a height '2h' above the ground level possesses a gravitational potential energy of",
-      "A":"1/2 * mgh",
-      "B":"mgh",
-      "C":"2mgh",
-      "D":"m * g/2h",
-      "answer":"C"
-    },
-    {
-      "unit":3,
-      "title":"Energy, Work & Power",
-      "question":"A pendulum bob moves at a speed of 2 m/s and mass of 0.5 kg, its KE would be",
-      "A":"1J",
-      "B":"0.25J",
-      "C":"0.5J",
-      "D":"2J",
-      "answer":"A"
-    },  
-    {      
-      "unit":3,
-      "title":"Energy, Work & Power",
-      "question":"A girl accidentally dropped her mobile phone from the balcony. If the mass of the mobile phone is 0.6 kg and the height from where the mobile phone was dropped is 120 m, the PE of the mobile phone is",
-      "A":"7.2J",
-      "B":"200J",
-      "C":"72J",
-      "D":"720J",
-      "answer":"D"
-    },
-    {
-      "unit":3,
-      "title":"Energy, Work & Power",
-      "question":"If a bulb uses energy of 100 J and remains on for 25s, the power consumed by the bulb will be",
-      "A":"125W",
-      "B":"4W",
-      "C":"2500W",
-      "D":"75W",
-      "answer":"B"
-    },
-    {
-      "unit":4,
-      "title":"Energy resources",
-      "question":"Energy resources that, once used, can replenish themselves and can be used again and again are called:",
-      "A":"Non-renewable",
-      "B":"Renewable",
-      "C":"Potential",
-      "D":"Kinetic",
-      "answer":"B"
-    },
-    {
-      "unit":4,
-      "title":"Energy resources",
-      "question":"The output of a truck is 4500 J and its efficiency is 50%, the input energy provided to the truck is",
-      "A":"5000J",
-      "B":"900J",
-      "C":"9000J",
-      "D":"500J",
-      "answer":"C"
-    },
-    {
-      "unit":4,
-      "title":"Energy resource",
-      "question":"A car uses total energy of 2500J and the output is 750J. The efficiency of the car is?",
-      "A":"50%",
-      "B":"30%",
-      "C":"25%",
-      "D":"80%",      
-      "answer":"B"
-    },
-    {
-      "unit":4,
-      "title":"Energy resource",
-      "question":"Which energy source is derived from the movement of seawater in and out of turbines to generate electricity?",
-      "A":"Wind",
-      "B":"Hydro-electric power",
-      "C":"Tidal",
-      "D":"Solar",
-      "answer":"C"
-    },
-    {
-      "unit":4,
-      "title":"Energy resource",
-      "question":"Which statement below is NOT an advantage of tidal energy?",
-      "A":"Tidal barrages have the potential to generate a lot of energy",
-      "B":"Tidal barrages can double as bridges",
-      "C":"Tidal barrages can help to prevent flooding",
-      "D":"Tidal barrages can alter the ecosystem around the estuary impacting on wildlife habitats",
-      "answer":"D"
-    },
-    {
-      "unit":4,
-      "title":"Energy resource",
-      "question":"What is the name of the renewable energy supply generated by capturing sunlight in panels that convert the sunlight into electricity?",
-      "A":"Wind",
-      "B":"Hydro-electric power",
-      "C":"Solar",
-      "D":"Geothermal",
-      "answer":"C"
-    },
-    {
-      "unit":4,
-      "title":"Energy resource",
-      "question":"What is the name of the renewable energy source generated from using volcanic heat found under the Earth's surface?",
-      "A":"Wind",
-      "B":"Tidal",
-      "C":"Solar",
-      "D":"Geothermal",
-      "answer":"D"
-    },
-    {
-      "unit":5,
-      "title":"Kinetic Molecular Model Of Matter",
-      "question":"Which theory describes the arrangement and movement of particles in solids, liquids and gases?",
-      "A":"Theory of Relativity",
-      "B":"Kinetic Theory",
-      "C":"Atomic Theory",
-      "D":"Darwin's Theory",
-      "answer":"B"
-    },
-    {
-      "unit":5,
-      "title":"Kinetic Molecular Model Of Matter",
-      "question":"In which state of matter are the particles mostly touching but arranged in a random way?",
-      "A":"Solid",
-      "B":"Liquid",
-      "C":"Gas",
-      "D":"Plasma",
-      "answer":"A"
-   },
-    {
-      "unit":5,
-      "title":"Kinetic Molecular Model Of Matter",
-      "question":"In which state of matter do the particles have the most energy?",
-      "A":"Solid",
-      "B":"Liquid",
-      "C":"Gas",
-      "D":"Cannot be determined",
-      "answer":"C"    
-    },
-    {
-      "unit":5,
-      "title":"Kinetic Molecular Model Of Matter",
-      "question":"Why can liquids not be compressed easily?",
-      "A":"The particles are in random arrangement",
-      "B":"The particles are closely packed",
-      "C":"The particles are free to move",
-      "D":"The particles have high energy",
-      "answer":"B"
-   },
-    {
-      "unit":5,
-      "title":"Kinetic Molecular Model Of Matter",
-      "question":"Why do solids have a fixed shape?",
-      "A":"The particles are fixed in place",
-      "B":"The paricles are closely packed",
-      "C":"All of the above",
-      "D":"None of the above",
-      "answer":"C"
-    },
-    {
-      "unit":6,
-      "title":"Evaporation & Pressure change",
-      "question":" A sealed syringe contains 10 &times; 10<sup>-6</sup> m<sup>3</sup> of air at 1 &times; 10<sup>5</sup> Pa. The plunger is pushed until the volume of trapped air is 4 x 10<sup>-6</sup> m<sup>3</sup>. If there is no change in temperature what is the new pressure of the gas?",
-      "A":"2.5 &times; 10<sup>6</sup>",
-      "B":"2.5 &times; 10<sup>5</sup>",
-      "C":"2.6 &times; 10<sup>6</sup>",
-      "D":"2.6 &times; 10<sup>7</sup>",
-      "answer":"B"
-    },
-    {
-      "unit":6,
-      "title":"Evaporation & Pressure change",
-      "question":"What is the relationship between the pressure and volume of a fixed mass of gas at constant temperature?",
-      "A":"Gas volume is directly proportional to gas pressure",
-      "B":"Gas volume is conversely proportional to gas pressure",
-      "C":"Gas volume is inversely proportional to gas pressure",
-      "D":"Gas volume is not proportional to gas pressure",
-      "answer":"C"
-   },
-    {
-      "unit":6,
-      "title":"Evaporation & Pressure change",
-      "question":"The pressure of a gas will _________  when the volume is decreased and will _______ when the absolute temperature is decreased.",
-      "A":"increase...increase",
-      "B":"increase...decrease",
-      "C":"decrease...increase",
-      "D":"decrease...decrease",
-      "answer":"B"    
-    },
-    {
-      "unit":6,
-      "title":"Evaporation & Pressure change",
-      "question":"If the absolute temperature of a gas is doubled and the pressure of the gas is halved, how will the volume change?",
-      "A":"It will decrease to one fourth of its original value.",
-      "B":"It will stay the same as its original value.",
-      "C":"It will increase to four times its original value.",
-      "D":"It will become half its original value",
-      "answer":"C"
-   },
-    {
-      "unit":6,
-      "title":"Evaporation & Pressure change",
-      "question":"If both the volume and the pressure of a gas are doubled, how will the absolute temperature change?",
-      "A":"It will decrease to one fourth of its original value.",
-      "B":"It will stay the same as its original value.",
-      "C":"It will increase to four times its original value.",
-      "D":"It will become half its original value",
-      "answer":"C"
-    }
-  ]
+    "units":[
+      {
+          "title":"Motion",
+          "questions":[
+              {
+                "question":"If a car increases in velocity from 5 m/s to 15 m/s in three seconds, what is its acceleration?",
+                "A":"33.3 m/s<sup>2<sup>",
+                "B":"3.3 m/s<sup>2<sup>",
+                "C":"10 m/s<sup>2<sup>",
+                "D":"30 m/s<sup>2<sup>",
+                "answer":"B",
+                "image":"http://clipartist.net/openclipart.org/2013/May/May2013/a_car_little_red-1969px.png"
+            },
+            {
+                "question":"What is the best description for this distance time graph",
+                "A":"Acceleration",
+                "B":"Steady speed",
+                "C":"Stopped",
+                "D":"Deacceleration",
+                "answer":"C",
+                "image":"http://www.sciwebhop.net/sci_web/physics/gcse/force_motion/fimages/revisi8.gif"
+            },
+            {
+                "question":"A man runs after a bus. The bus is travelling at an average speed of 5 m/s. The man runs 25 m in 6 s. Does he catch the bus?",
+                "A":"Yes",
+                "B":"No",
+                "answer":"B"
+            },
+            {
+                "question":"What does the following Speed-Time graph indicate?",
+                "A":"None",
+                "B":"Body is at rest",
+                "C":"Non-uniform speed",
+                "D":"Uniform speed",
+                "answer":"D",
+                "image":"http://images.tutorvista.com/contentimages/science/CBSEIXSCIENCE/Ch143/images_tat/img472.jpeg"
+            },
+            {
+                "question":"A body moving along a straight line at 20 m/s undergoes an acceleration of 4 m/s<sup>2</sup>. After two seconds its speed will be",
+                "A":"8 m/s",
+                "B":"12 m/s",
+                "C":"16 m/s",
+                "D":"28 m/s",
+                "answer":"D"
+            }
+          ]
+        },
+        {
+            "title":"Matter And Forces",
+            "questions":[
+                {
+                    "question":"If a person's mass is 45Kg and considering the gravity as 10 m/s<sup>2</sup>, what is his weight?",
+                    "A":"450N",
+                    "B":"45N",
+                    "C":"4500N",
+                    "D":"None",
+                    "answer":"A"
+                },
+                {
+                    "question":"The strength of gravity on the Moon is 1.6 newtons per kilogram. If an astronaut's mass is 80 kg on Earth, what would it be on the Moon?",
+                    "A":"80",
+                    "B":"8.0",
+                    "C":"50",
+                    "D":"60",
+                    "answer":"A"
+                },
+                {
+                    "question":"The surface gravity of Jupiter is about 26 newtons per kilogram. What would be the weight of a probe of mass 50 kg at Jupiter's surface?",
+                    "A":"130N",
+                    "B":"1300N",
+                    "C":"13000N",
+                    "D":"1.3N",
+                    "answer":"B"
+                },    
+                {
+                    "question":"The diagram below shows two identical springs whose unstretched lengths are each 20 cm. A mass of 200 g is hung on one spring and the spring becomes 25 cm long. A mass of 80 g is hung on the other spring. How long does it become?",
+                    "A":"22cm",
+                    "B":"10cm",
+                    "C":"15cm",
+                    "D":"23cm",
+                    "answer":"A",
+                    "image":"http://www.school.nrtoone.com/hotpot/springpix/11.gif"
+                },
+                {
+                    "question":"Hooke's Law states that the extension of a wire is directly proportional to the force which stretches it. Which of these graphs shows agreement with Hooke's Law?",
+                    "A":"E",
+                    "B":"B",
+                    "C":"D",
+                    "D":"C",
+                    "answer":"D",
+                    "image":"http://www.school.nrtoone.com/hotpot/springpix/4.gif"
+                }
+            ]
+        },
+        {
+            "title":"Energy, Work & Power",
+            "questions":[
+                {
+                    "question":"The net thrust force on a bus is 5000N and the work done by the bus is 2500J, the distance travelled by the bus is ?",
+                    "A":"2m",
+                    "B":"0.5m",
+                    "C":"7500m",
+                    "D":"2500m",
+                    "answer":"B"
+                },
+                {
+                    "question":"The P.E. of a body at a certain height is 200 J. The kinetic energy possessed by it when it just touches the surface of the earth is",
+                    "A":"&gt;P.E",
+                    "B":"&lt;P.E",
+                    "C":"=P.E",
+                    "D":"Cannot be determined",
+                    "answer":"C"
+                },    
+                {
+                    "question":"An object of mass 1 kg has potential energy of 1 joule relative to the ground when it is at a height of _______.",
+                    "A":"0.10m",
+                    "B":"1m",
+                    "C":"9.8m",
+                    "D":"32m",
+                    "answer":"A"
+                },
+                {
+                    "question":"An object of mass 'm' raised to a height '2h' above the ground level possesses a gravitational potential energy of",
+                    "A":"1/2 * mgh",
+                    "B":"mgh",
+                    "C":"2mgh",
+                    "D":"m * g/2h",
+                    "answer":"C"
+                },
+                {
+                    "question":"A pendulum bob moves at a speed of 2 m/s and mass of 0.5 kg, its KE would be",
+                    "A":"1J",
+                    "B":"0.25J",
+                    "C":"0.5J",
+                    "D":"2J",
+                    "answer":"A"
+                },  
+                {      
+                    "question":"A girl accidentally dropped her mobile phone from the balcony. If the mass of the mobile phone is 0.6 kg and the height from where the mobile phone was dropped is 120 m, the PE of the mobile phone is",
+                    "A":"7.2J",
+                    "B":"200J",
+                    "C":"72J",
+                    "D":"720J",
+                    "answer":"D"
+                },
+                {
+                    "question":"If a bulb uses energy of 100 J and remains on for 25s, the power consumed by the bulb will be",
+                    "A":"125W",
+                    "B":"4W",
+                    "C":"2500W",
+                    "D":"75W",
+                    "answer":"B"
+                }
+            ]
+        },
+        {
+            "title":"Energy resources",
+            "questions":[
+                {
+                    "question":"Energy resources that, once used, can replenish themselves and can be used again and again are called:",
+                    "A":"Non-renewable",
+                    "B":"Renewable",
+                    "C":"Potential",
+                    "D":"Kinetic",
+                    "answer":"B"
+                },
+                {
+                    "question":"The output of a truck is 4500 J and its efficiency is 50%, the input energy provided to the truck is",
+                    "A":"5000J",
+                    "B":"900J",
+                    "C":"9000J",
+                    "D":"500J",
+                    "answer":"C"
+                },
+                {
+                    "question":"A car uses total energy of 2500J and the output is 750J. The efficiency of the car is?",
+                    "A":"50%",
+                    "B":"30%",
+                    "C":"25%",
+                    "D":"80%",      
+                    "answer":"B"
+                },
+                {
+                    "question":"Which energy source is derived from the movement of seawater in and out of turbines to generate electricity?",
+                    "A":"Wind",
+                    "B":"Hydro-electric power",
+                    "C":"Tidal",
+                    "D":"Solar",
+                    "answer":"C"
+                },
+                {
+                    "question":"Which statement below is NOT an advantage of tidal energy?",
+                    "A":"Tidal barrages have the potential to generate a lot of energy",
+                    "B":"Tidal barrages can double as bridges",
+                    "C":"Tidal barrages can help to prevent flooding",
+                    "D":"Tidal barrages can alter the ecosystem around the estuary impacting on wildlife habitats",
+                    "answer":"D"
+                },
+                {
+                    "question":"What is the name of the renewable energy supply generated by capturing sunlight in panels that convert the sunlight into electricity?",
+                    "A":"Wind",
+                    "B":"Hydro-electric power",
+                    "C":"Solar",
+                    "D":"Geothermal",
+                    "answer":"C"
+                },
+                {
+                    "question":"What is the name of the renewable energy source generated from using volcanic heat found under the Earth's surface?",
+                    "A":"Wind",
+                    "B":"Tidal",
+                    "C":"Solar",
+                    "D":"Geothermal",
+                    "answer":"D"
+                }
+            ]
+        },
+        {
+            "title":"Kinetic Molecular Model Of Matter",
+            "questions":[
+                {
+                    "question":"Which theory describes the arrangement and movement of particles in solids, liquids and gases?",
+                    "A":"Theory of Relativity",
+                    "B":"Kinetic Theory",
+                    "C":"Atomic Theory",
+                    "D":"Darwin's Theory",
+                    "answer":"B"
+                },
+                {
+                    "question":"In which state of matter are the particles mostly touching but arranged in a random way?",
+                    "A":"Solid",
+                    "B":"Liquid",
+                    "C":"Gas",
+                    "D":"Plasma",
+                    "answer":"A"
+                },
+                {
+                    "question":"In which state of matter do the particles have the most energy?",
+                    "A":"Solid",
+                    "B":"Liquid",
+                    "C":"Gas",
+                    "D":"Cannot be determined",
+                    "answer":"C"    
+                },
+                {
+                    "question":"Why can liquids not be compressed easily?",
+                    "A":"The particles are in random arrangement",
+                    "B":"The particles are closely packed",
+                    "C":"The particles are free to move",
+                    "D":"The particles have high energy",
+                    "answer":"B"
+                },
+                {
+                    "question":"Why do solids have a fixed shape?",
+                    "A":"The particles are fixed in place",
+                    "B":"The paricles are closely packed",
+                    "C":"All of the above",
+                    "D":"None of the above",
+                    "answer":"C"
+                }
+            ]
+        },
+        {
+            "title":"Evaporation & pressure changes",
+            "questions":[
+                {
+                    "question":" A sealed syringe contains 10 &times; 10<sup>-6</sup> m<sup>3</sup> of air at 1 &times; 10<sup>5</sup> Pa. The plunger is pushed until the volume of trapped air is 4 x 10<sup>-6</sup> m<sup>3</sup>. If there is no change in temperature what is the new pressure of the gas?",
+                    "A":"2.5 &times; 10<sup>6</sup>",
+                    "B":"2.5 &times; 10<sup>5</sup>",
+                    "C":"2.6 &times; 10<sup>6</sup>",
+                    "D":"2.6 &times; 10<sup>7</sup>",
+                    "answer":"B"
+                },
+                {
+                    "question":"What is the relationship between the pressure and volume of a fixed mass of gas at constant temperature?",
+                    "A":"Gas volume is directly proportional to gas pressure",
+                    "B":"Gas volume is conversely proportional to gas pressure",
+                    "C":"Gas volume is inversely proportional to gas pressure",
+                    "D":"Gas volume is not proportional to gas pressure",
+                    "answer":"C"
+                },
+                {
+                    "question":"The pressure of a gas will _________  when the volume is decreased and will _______ when the absolute temperature is decreased.",
+                    "A":"increase...increase",
+                    "B":"increase...decrease",
+                    "C":"decrease...increase",
+                    "D":"decrease...decrease",
+                    "answer":"B"    
+                },
+                {
+                    "question":"If the absolute temperature of a gas is doubled and the pressure of the gas is halved, how will the volume change?",
+                    "A":"It will decrease to one fourth of its original value.",
+                    "B":"It will stay the same as its original value.",
+                    "C":"It will increase to four times its original value.",
+                    "D":"It will become half its original value",
+                    "answer":"C"
+                },
+                {
+                    "question":"If both the volume and the pressure of a gas are doubled, how will the absolute temperature change?",
+                    "A":"It will decrease to one fourth of its original value.",
+                    "B":"It will stay the same as its original value.",
+                    "C":"It will increase to four times its original value.",
+                    "D":"It will become half its original value",
+                    "answer":"C"
+                }
+            ]
+        },
+        {
+            "title":"Electric Quantities - Part 1",
+            "questions":[
+                {
+                    "question":"Electric current is measured in ______ and electric charge is measured in ________.",
+                    "A":"Kilograms... Coulombs",
+                    "B":"Waves per second... electrons",
+                    "C":"Electrons... Amperes",
+                    "D":"Amperes... Coulombs",
+                    "answer":"D"
+                },
+                {
+                    "question":"If a current (I) of 5A passes through a point for 3s, what is the amount of electric charge that has passed through that point?",
+                    "A":"5 C",
+                    "B":"5/3 C",
+                    "C":"15 C",
+                    "D":"53 C",
+                    "answer":"C"   
+                },
+                {
+                    "question":"Like charges ______ unlike charges _______.",
+                    "A":"Repel.... attract",
+                    "B":"Repel.... repel",
+                    "C":"Attract.... repel",
+                    "D":"Attract.... attract",
+                    "answer":"A"
+                },
+                {
+                    "question":"Each electron has a charge of?",
+                    "A":"-1 C",
+                    "B":"1.6 * 10<sup>-19</sup> C",
+                    "C":"-1.6 C",
+                    "D":"-1.6 * 10<sup>-19</sup> C",
+                    "answer":"B"
+                },
+                {
+                    "question":"Which of these components can be used to measure the current in a circuit at a given point?",
+                    "A":"Voltmeter",
+                    "B":"Ammeter",
+                    "C":"Electrometer",
+                    "D":"Electrodes",
+                    "answer":"B"
+                }
+            ]
+        }  
+    ]
 }

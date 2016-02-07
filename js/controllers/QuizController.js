@@ -2,8 +2,8 @@ app.controller("QuizController", function($scope, $routeParams, $location, QuizS
   $scope.$location = $location;
   $scope.unit = $routeParams.unit;
   QuizService.success(function(data){
-    $scope.questions = data.questions.filter(function(x){return x.unit == $scope.unit;});
-    $scope.title = $scope.questions[0].title;
+    $scope.questions = data.units[$scope.unit].questions;
+    $scope.title = data.units[$scope.unit].title;
   });
   
   $scope.active = 0;
