@@ -311,7 +311,7 @@
           "title":"Matter and Thermal Properties",
             "questions":[
                 {
-                    "question":"If the temperature of 70 g of copper [having a specific heat capacity of 0.4 J/(g degree celcius)] is lowered by 7 degree celcius, then the heat lost by the copper is",
+                    "question":"If the temperature of 70 g of copper [having a specific heat capacity of 0.4 J/(g <sup>o</sup>C)] is lowered by 7 <sup>o</sup>C, then the heat lost by the copper is",
                     "A":"490J",
                     "B":"28J",
                     "C":"196J",
@@ -319,15 +319,15 @@
                     "answer":"C"
                 },
                 {
-                    "question":"If 2736 J of heat are gained by 60 g of oil [having a specific heat capacity of 2.4 J/(g degree celcius)], the temperature change in the oil is",
-                    "A":"144 �C",
-                    "B":"114 �C",
-                    "C":"19 �C",
-                    "D":"6 �C",
+                    "question":"If 2736 J of heat are gained by 60 g of oil [having a specific heat capacity of 2.4 J/(g <sup>o</sup>C)], the temperature change in the oil is",
+                    "A":"144 <sup>o</sup>C",
+                    "B":"114 <sup>o</sup>C",
+                    "C":"19 <sup>o</sup>C",
+                    "D":"6 <sup>o</sup>C",
                     "answer":"C"
                 },
                 {
-                    "question":"If 83680 J of heat are required to raise the temperature of 4 kg of water by 5 �C, then the specific heat capacity of water in J/(kg �C) is",
+                    "question":"If 83680 J of heat are required to raise the temperature of 4 kg of water by 5 <sup>o</sup>C, then the specific heat capacity of water in J/(kg <sup>o</sup>C) is",
                     "A":"20920",
                     "B":"4184",
                     "C":"8368",
@@ -335,7 +335,7 @@
                     "answer":"B"
                 },    
                 {
-                    "question":"How much energy is needed to increase the temperature of 500 g of lead from 20�C to 45�C? The specific heat capacity of lead is 128 J/kg �C.",
+                    "question":"How much energy is needed to increase the temperature of 500 g of lead from 20<sup>o</sup>C to 45<sup>o</sup>C? The specific heat capacity of lead is 128 J/kg <sup>o</sup>C.",
                     "A":"1600J",
                     "B":"1500J",
                     "C":"160J",
@@ -351,15 +351,15 @@
                     "answer":"A"
                 },
                 {
-                    "question":"Given a container of air with an initial volume of 24 L and a temperature of 24 �C,calculate the temperature if the volume is changed to 23 L.",
-                    "A":"11.6 �C",
-                    "B":"116 �C",
-                    "C":"1.16 �C",
-                    "D":"0.116 �C",
+                    "question":"Given a container of air with an initial volume of 24 L and a temperature of 24 <sup>o</sup>C, calculate the temperature if the volume is changed to 23 L.",
+                    "A":"11.6 <sup>o</sup>C",
+                    "B":"116 <sup>o</sup>C",
+                    "C":"1.16 <sup>o</sup>C",
+                    "D":"0.116 <sup>o</sup>C",
                     "answer":"A"
                 },
                 {
-                    "question":"Given a container of helium gas with an initial volume of 32 L and temperature of -2.2 �C, calculate the volume if the temperature is changed to -6.3 �C",
+                    "question":"Given a container of helium gas with an initial volume of 32 L and temperature of -2.2 <sup>o</sup>C, calculate the volume if the temperature is changed to -6.3 <sup>o</sup>C",
                     "A":"32 L",
                     "B":"36 L",
                     "C":"35 L",
