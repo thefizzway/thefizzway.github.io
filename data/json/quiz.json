@@ -308,6 +308,67 @@
             ]
         },
         {
+          "title":"Matter and Thermal Properties",
+            "questions":[
+                {
+                    "question":"If the temperature of 70 g of copper [having a specific heat capacity of 0.4 J/(g degree celcius)] is lowered by 7 degree celcius, then the heat lost by the copper is",
+                    "A":"490J",
+                    "B":"28J",
+                    "C":"196J",
+                    "D":"2.8J",
+                    "answer":"C"
+                },
+                {
+                    "question":"If 2736 J of heat are gained by 60 g of oil [having a specific heat capacity of 2.4 J/(g degree celcius)], the temperature change in the oil is",
+                    "A":"144 �C",
+                    "B":"114 �C",
+                    "C":"19 �C",
+                    "D":"6 �C",
+                    "answer":"C"
+                },
+                {
+                    "question":"If 83680 J of heat are required to raise the temperature of 4 kg of water by 5 �C, then the specific heat capacity of water in J/(kg �C) is",
+                    "A":"20920",
+                    "B":"4184",
+                    "C":"8368",
+                    "D":"16736",
+                    "answer":"B"
+                },    
+                {
+                    "question":"How much energy is needed to increase the temperature of 500 g of lead from 20�C to 45�C? The specific heat capacity of lead is 128 J/kg �C.",
+                    "A":"1600J",
+                    "B":"1500J",
+                    "C":"160J",
+                    "D":"1000J",
+                    "answer":"A"
+                },
+                {
+                    "question":"Energy = mass x specific latent heat. If the specific latent heat of melting of water is 334 kJ/kg, how much energy is needed to melt 100 g of ice?",
+                    "A":"33.4kJ",
+                    "B":"334kJ",
+                    "C":"3.34kJ",
+                    "D":"0.334kJ",
+                    "answer":"A"
+                },
+                {
+                    "question":"Given a container of air with an initial volume of 24 L and a temperature of 24 �C,calculate the temperature if the volume is changed to 23 L.",
+                    "A":"11.6 �C",
+                    "B":"116 �C",
+                    "C":"1.16 �C",
+                    "D":"0.116 �C",
+                    "answer":"A"
+                },
+                {
+                    "question":"Given a container of helium gas with an initial volume of 32 L and temperature of -2.2 �C, calculate the volume if the temperature is changed to -6.3 �C",
+                    "A":"32 L",
+                    "B":"36 L",
+                    "C":"35 L",
+                    "D":"30 L",
+                    "answer":"A"
+                }
+            ]
+        },
+        {
             "title":"Electric Quantities - Part 1",
             "questions":[
                 {
@@ -349,6 +410,19 @@
                     "C":"Electrometer",
                     "D":"Electrodes",
                     "answer":"B"
+                }
+            ]
+        },
+        {
+            "title":"Electric Quantities - Part 2",
+            "questions":[
+                {
+                    "question":"If 1V of potential difference is found across a bulb which is given 2A of current, the resistance of the bulb is:",
+                    "A":"2 Ohms",
+                    "B":"0.5 Ohms",
+                    "C":"3 Ohms",
+                    "D":"1 Ohm",
+                    "answer":"B"                    
                 }
             ]
         }  
