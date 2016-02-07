@@ -423,6 +423,38 @@
                     "C":"3 Ohms",
                     "D":"1 Ohm",
                     "answer":"B"                    
+                },
+                {
+                    "question":"If a 5W appliance is given the a current of 2A, how much voltage will the circuit possess:",
+                    "A":"2.5V",
+                    "B":"7V",
+                    "C":"3V",
+                    "D":"10V",
+                    "answer":"A"                    
+                },
+                {
+                    "question":"What drives current from one terminal of the battery to the other terminal?",
+                    "A":"Charge",
+                    "B":"Battery",
+                    "C":"Potential difference",
+                    "D":"Electromotive Force",
+                    "answer":"D"                    
+                },
+                {
+                    "question":"The length of a wire is doubled, what will happen to its resistance?",
+                    "A":"Double the original value",
+                    "B":"It will remain unaffected",
+                    "C":"Four times the original value",
+                    "D":"Half the original value",
+                    "answer":"A"                    
+                },
+                {
+                    "question":"The diameter of a wire is doubled, what will happen to its resistance?",
+                    "A":"Double the original value",
+                    "B":"It will remain unaffected",
+                    "C":"Four times the original value",
+                    "D":"Half the original value",
+                    "answer":"C"                    
                 }
             ]
         }  
