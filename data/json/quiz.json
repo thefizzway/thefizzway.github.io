@@ -25,6 +25,8 @@
                 "question":"A man runs after a bus. The bus is travelling at an average speed of 5 m/s. The man runs 25 m in 6 s. Does he catch the bus?",
                 "A":"Yes",
                 "B":"No",
+                "C":"Cannot be determined",
+                "D":"Depends...",
                 "answer":"B"
             },
             {

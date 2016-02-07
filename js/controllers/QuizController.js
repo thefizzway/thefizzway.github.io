@@ -2,7 +2,7 @@ app.controller("QuizController", function($scope, $routeParams, $location, QuizS
   $scope.$location = $location;
   $scope.unit = $routeParams.unit;
   QuizService.success(function(data){
-    $scope.questions = data.units[$scope.unit].questions;
+    $scope.questions = data.units[$scope.unit-1].questions;
     $scope.title = data.units[$scope.unit-1].title;
   });
   
