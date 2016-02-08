@@ -351,11 +351,11 @@
                     "answer":"A"
                 },
                 {
-                    "question":"Given a container of air with an initial volume of 24 L and a temperature of 24 <sup>o</sup>C, calculate the temperature if the volume is changed to 23 L.",
-                    "A":"11.6 <sup>o</sup>C",
-                    "B":"116 <sup>o</sup>C",
-                    "C":"1.16 <sup>o</sup>C",
-                    "D":"0.116 <sup>o</sup>C",
+                    "question":"Given a container of oxygen gas with an initial volume of 42 L and a temperature of -9.1 <sup>o</sup>C, calculate the temperature if the volume is changed to 52 L. Given your answer to the nearest 1/10th of a <sup>o</sup>C. (<b>hint:</b> remember to convert to kelvin)",
+                    "A":"51.7 <sup>o</sup>C",
+                    "B":"16 <sup>o</sup>C",
+                    "C":"115 <sup>o</sup>C",
+                    "D":"0.95 <sup>o</sup>C",
                     "answer":"A"
                 },
                 {
@@ -444,7 +444,7 @@
                     "question":"The length of a wire is doubled, what will happen to its resistance?",
                     "A":"Double the original value",
                     "B":"It will remain unaffected",
-                    "C":"Four times the original value",
+                    "C":"One fourth of the original value",
                     "D":"Half the original value",
                     "answer":"A"                    
                 },
@@ -452,7 +452,7 @@
                     "question":"The diameter of a wire is doubled, what will happen to its resistance?",
                     "A":"Double the original value",
                     "B":"It will remain unaffected",
-                    "C":"Four times the original value",
+                    "C":"One fourth of the original value",
                     "D":"Half the original value",
                     "answer":"C"                    
                 }
