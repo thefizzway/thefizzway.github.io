@@ -369,6 +369,59 @@
             ]
         },
         {
+            "title":"Conduction, Convection and Radiation",
+            "questions":[
+                {
+                    "question":"Which of these methods of heat transfer does not involve particles?",
+                    "A":"Radiation",
+                    "B":"Conduction",
+                    "C":"Convection",
+                    "D":"None of the above",
+                    "answer":"A"
+                },
+                {
+                    "question":"What method of heat transfer occurs mainly in solids?",
+                    "A":"Radiation",
+                    "B":"Conduction",
+                    "C":"Convection",
+                    "D":"None of the above",
+                    "answer":"B"
+                },
+                {
+                    "question":"Which states of matter are fluids?",
+                    "A":"Solid, liquids and gases",
+                    "B":"Gases only",
+                    "C":"Gases and liquid",
+                    "D":"Solids only",
+                    "answer":"C"
+                },    
+                {
+                    "question":"What method of heat transfer can occur in a vacuum?",
+                    "A":"Radiation",
+                    "B":"Conduction",
+                    "C":"Convection",
+                    "D":"None of the above",
+                    "answer":"A"
+                },
+                {
+                    "question":"What method of heat transfer do we see in our weather patterns?",
+                    "A":"Radiation",
+                    "B":"Conduction",
+                    "C":"Convection",
+                    "D":"None of the above",
+                    "answer":"C"
+                },
+                {
+                    "question":"What surfaces best absorb infrared radiation?",
+                    "A":"Black",
+                    "B":"White",
+                    "C":"Red",
+                    "D":"Orange",
+                    "answer":"A"
+                }  
+          ]
+        },
+        {
             "title":"Electric Quantities - Part 1",
             "questions":[
                 {
@@ -457,6 +510,6 @@
                     "answer":"C"                    
                 }
             ]
-        }  
+        }
     ]
 }
