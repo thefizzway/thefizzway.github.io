@@ -510,6 +510,52 @@
                     "answer":"C"                    
                 }
             ]
+        },
+        {
+            "title":"Radioactivity",
+            "questions":[
+                {
+                    "question":"Which radiation has highest energy?",
+                    "A":"Alpha Radiation",
+                    "B":"Beta Radiation",
+                    "C":"Gamma Radiation",
+                    "D":"All of them have same energy",
+                    "answer":"C"
+                },
+                {
+                    "question":"Find the half-life of the substance with the decay curve shown in the image",
+                    "A":"8 days",
+                    "B":"64 days",
+                    "C":"100 days",
+                    "D":"50 days",
+                    "answer":"A",
+                    "image":"http://www.felloweducators.com/brick/ear/images/eari_radioisotope_i131_small.gif"
+                },
+                {
+                    "question":"What percentage of a radioactive element remains after 2 half-lives?",
+                    "A":"50%",
+                    "B":"2%",
+                    "C":"100%",
+                    "D":"25%",
+                    "answer":"D"
+                },
+                {
+                    "question":"An element has a half-life of 1000 years. After how many years will its radioactivity be 20 counts per minute if it is currently 160 counts per minute?",
+                    "A":"1000 years",
+                    "B":"2000 years",
+                    "C":"3000 years",
+                    "D":"500 years",
+                    "answer":"C"
+                },
+                {
+                    "question":"______ radiation will experience maximum deflection in an electric field while ______ radiation will experience maximum deflection in a magnetic field.",
+                    "A":"alpha... beta",
+                    "B":"beta... gamma",
+                    "C":"gamma... alpha",
+                    "D":"beta... alpha",
+                    "answer":"A"
+                }
+            ]
         }
     ]
 }
