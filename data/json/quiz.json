@@ -422,6 +422,78 @@
           ]
         },
         {
+            "title":"Waves",
+            "questions":[
+                {
+                    "question":"The wavelength is represented by which letter?",
+                    "A":"A",
+                    "B":"B",
+                    "C":"C",
+                    "D":"D",
+                    "answer":"A",
+                    "image":"http://www.softschools.com/images/wave.jpg"
+                },
+                {
+                    "question":"The frequency of a wave travelling at a speed of 500 ms-1 is 25 Hz. Its time period will be?",
+                    "A":"20 s",
+                    "B":"0.05 s",
+                    "C":"25 s",
+                    "D":"0.04 s",
+                    "answer":"D"
+                    
+                },
+                {
+                    "question":"A sound source sends waves of 400 Hz. It produces waves of wavelength 2.5 m. The velocity of sound waves is",
+                    "A":"100 m/s",
+                    "B":"1000 m/s",
+                    "C":"10000 m/s",
+                    "D":"3000 km/s",
+                    "answer":"B"                    
+                },
+                {
+                    "question":"The frequency which is not audible to the human ear is (You may do some research to help solve this question)",
+                    "A":"50 Hz",
+                    "B":"500 Hz",
+                    "C":"5000 Hz",
+                    "D":"50000 Hz",
+                    "answer":"D"                    
+                },
+                {
+                    "question":"The wave crest is represented by which letter?",
+                    "A":"A",
+                    "B":"B",
+                    "C":"C",
+                    "D":"D",
+                    "answer":"C",
+                    "image":"http://www.softschools.com/images/wave.jpg"
+                },
+                {
+                    "question":"What is the measure of the number of of waves that pass a given point per second?",
+                    "A":"Frequency",
+                    "B":"Wavelength",
+                    "C":"Amplitude",
+                    "D":"Origin",
+                    "answer":"A"
+                },
+                {
+                    "question":"What is measured from one wave crest to another wave crest or one wave trough to another wave trough?",
+                    "A":"Frequency",
+                    "B":"Amplitude",
+                    "C":"Wavelength",
+                    "D":"Origin",
+                    "answer":"C"                    
+                },
+                {
+                    "question":"How can we determine which wave has a higher pitch",
+                    "A":"By its length of wavelength",
+                    "B":"By its frequency",
+                    "C":"By its crest",
+                    "D":"By length of its amplitude",
+                    "answer":"B"
+                }
+            ]
+        },
+        {
             "title":"Electric Quantities - Part 1",
             "questions":[
                 {
