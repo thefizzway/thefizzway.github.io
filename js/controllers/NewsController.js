@@ -4,7 +4,7 @@ app.controller("NewsController", function($scope){
     type:"GET",
     dataType:"jsonp",
     success:function(data){
-      $scope.entries = data.responseData.feed.entries;
+      $scope.entries = data.items;
       $scope.$apply();
     }
   });
