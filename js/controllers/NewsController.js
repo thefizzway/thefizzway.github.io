@@ -1,6 +1,6 @@
 app.controller("NewsController", function($scope){
   $.ajax({
-    url:"http://ajax.googleapis.com/ajax/services/feed/load?v=2.0&q=http://phys.org/rss-feed/&num=20",
+    url:"https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fphys.org%2Frss-feed%2F",
     type:"GET",
     dataType:"jsonp",
     success:function(data){
